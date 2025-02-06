@@ -41,7 +41,7 @@ function processUrl(value, path) {
     url = `https://${url}`;
   }
 
-  sessionStorage.setItem("GoUrl", __uv$config.encodeUrl(url));
+  //sessionStorage.setItem("GoUrl", __uv$config.encodeUrl(url));
   const dy = localStorage.getItem("dy");
 
   if (dy === "true") {
